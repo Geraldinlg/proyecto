@@ -1,0 +1,39 @@
+
+<!--<script src="smpt.js"></script>-->
+
+h1{
+    text-decoration: underline;
+}
+h2{
+    color:blue;
+}
+.desarrollador{
+    color:brown
+}
+nombre{
+    color:green
+}
+div button{
+    color white !important;
+}
+.degradado{
+    background: rgb(168, 13, 65);
+    background: linear-gradient(90deg,rgba(255,0,85,1)0%, rgba(177,10,101,1) 53%, rgba(107,19,116,1)80%);
+    font-size: 30px;
+    padding: 30px;
+    border: 3px solid blue;
+} 
+ /*
+ ul li.nav-item:hover{
+    background-color:blue !important;
+    }*/
+    ul li.nav-item:last-child{
+        fond-size:20px
+    }
+    a.nav-link:hover::after{
+        content: "";
+        height: 2px;
+        width: 100%;
+        background:#17bb33 ;
+        display: block;
+    }
